@@ -1,0 +1,57 @@
+body {
+    background: radial-gradient(circle, #cfe02e, #b734c9, #3bd9ee);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result {
+    font-size: 50px;
+}
+
+.row {
+    margin-top: 15px;
+}
+
+.add {
+    background-color: lightcyan;
+    font-size: 40px;
+    width: 50px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+
+.subtract {
+    background-color: lightcyan;
+    font-size: 40px;
+    width: 50px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+
+.reset {
+    margin-top: 10px;
+    background-color: lightpink;
+    font-size: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.add:active {
+    background-color: lightgreen;
+}
+
+.subtract:active {
+    background-color: lightcoral;
+}
+
+.reset:active {
+    background-color: lightyellow;
+}
